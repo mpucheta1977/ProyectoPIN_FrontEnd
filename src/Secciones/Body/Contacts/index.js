@@ -50,12 +50,12 @@ function DateContact() {
             <Contact handleChange={handleChange} handleSubmit={handleSubmit} contactInfo={contactInfo} disableEnviar={disableEnviar}/>
             { success &&
             <div class="alert alert-success" role="alert">
-            Se registro la operacion correctamente y se envio el mail
+            Se registro correctamente y se envio el mail
             </div>
             }
             { error &&
             <div class="alert alert-danger" role="alert">
-            Verifique porque no se pudo procesar la operacion
+            Verifique!!! No se pudo procesar la informacion
             </div>
             }
             
