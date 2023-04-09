@@ -6,6 +6,8 @@ import Servicios from './Secciones/Body/Servics';
 import AboutUs from './Secciones/Body/About';
 import Products from './Secciones/Body/Products';
 import DateContact from './Secciones/Body/Contacts';
+import Foot from './Secciones/Footer';
+
 
 
 
@@ -23,7 +25,7 @@ function App() {
         <DateContact />
       </body>
       <footer>
-        <h1>Footer</h1>
+        <Foot/>
       </footer>
     </div>
 

@@ -58,11 +58,6 @@ function DateContact() {
             Verifique el error porque no pudimos procesar el registro de registro de contacto
             </div>
             }
-            
-            
-            
-            
-            
         </section>
     )
 };
